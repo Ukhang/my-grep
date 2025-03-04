@@ -1,0 +1,10 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# TypeScript compiled files
+dist/
+
+# Logs and system files
+*.log
+.DS_Store
