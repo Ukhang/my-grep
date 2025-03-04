@@ -34,4 +34,9 @@ export class PatternMatcher {
         const regex = new RegExp(`${pattern}?`);
         return regex.test(text);
     }
+
+    static wildcard(text: string, pattern: string): boolean {
+        const regex = new RegExp(`${pattern}`);
+        return regex.test(text);
+    }
 }
