@@ -1,3 +1,6 @@
+
+![Frame 7](https://github.com/user-attachments/assets/198f6f8c-0e5e-486a-93db-0128e4fd6dab)
+
 # My Grep
 A custom implementation of the grep command written in TypeScript.
 
