@@ -20,4 +20,8 @@ export class PatternMatcher {
     static matchStartOfString(text: string): boolean {
         return /^/.test(text);
     }
+
+    static matchEndOfString(text: string): boolean {
+        return /$/.test(text);
+    }
 }
