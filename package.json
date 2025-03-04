@@ -1,0 +1,22 @@
+{
+  "name": "my-grep",
+  "version": "1.0.0",
+  "description": "A TypeScript implementation of a flexible grep-like tool for searching files with dynamic regular expression patterns.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "my-grep": "npx ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "@types/readline-sync": "^1.4.8",
+    "typescript": "^5.8.2"
+  }
+}
