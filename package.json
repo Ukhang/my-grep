@@ -4,7 +4,8 @@
   "description": "A TypeScript implementation of a flexible grep-like tool for searching files with dynamic regular expression patterns.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "my-grep": "npx ts-node index.ts"
   },
   "keywords": [],
   "author": "",
