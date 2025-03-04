@@ -16,4 +16,8 @@ export class PatternMatcher {
         const regex = new RegExp(`[^${pattern}]`);
         return regex.test(text);
     }
+
+    static matchStartOfString(text: string): boolean {
+        return /^/.test(text);
+    }
 }
