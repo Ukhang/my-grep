@@ -1,0 +1,45 @@
+Hello, World! 
+This is a test file. 
+The number is 12345.
+Here is another number 67890.
+This line has no number.
+The value is 42.
+12345 67890 42
+apple
+apple123
+123abc456
+one123one
+abc value value abc
+apple-apple
+test_123_test
+start and end.
+A quick brown fox.
+The quick brown fox jumped over the lazy dog.
+catdog
+dogcat
+(\b\w+\b).*\1
+\foo\bar
+#12345
+42 is a number and 42 is the answer to everything.
+hello123hello
+555-1234
+email@example.com
+test_case_1
+a.b.c
+d,e,f
+a|b|c
+nested-123-nested
+aaa aaa
+bbbbb bbbbb
+123123
+valuevalue
+some value
+cat dog cat dog cat
+random number 78901 random
+line number 56789 end of test
+#Starting with special char
+Starting123 at the beginning
+there is no number here!
+The test is done for now.
+More text with some more numbers 100500200.
+file.end
