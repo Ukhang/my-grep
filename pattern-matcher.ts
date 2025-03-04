@@ -24,4 +24,9 @@ export class PatternMatcher {
     static matchEndOfString(text: string): boolean {
         return /$/.test(text);
     }
+
+    static matchOneOrMore(text: string, pattern: string): boolean {
+        const regex = new RegExp(`${pattern}+`);
+        return regex.test(text);
+    }
 }
