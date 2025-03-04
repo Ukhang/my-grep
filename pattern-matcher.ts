@@ -11,4 +11,9 @@ export class PatternMatcher {
         const regex = new RegExp(`(?:${pattern})`);
         return regex.test(text);
     }
+
+    static matchNegativeGroup(text: string, pattern: string): boolean {
+        const regex = new RegExp(`[^${pattern}]`);
+        return regex.test(text);
+    }
 }
