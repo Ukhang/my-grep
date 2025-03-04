@@ -51,7 +51,7 @@ A custom implementation of the grep command written in TypeScript.
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Ukhang/my-shell.git
+   git clone https://github.com/Ukhang/my-grep.git
    cd my-grep
    ```
 2. Install dependencies:
