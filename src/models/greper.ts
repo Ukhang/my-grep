@@ -1,5 +1,4 @@
 import readlineSync from 'readline-sync';
-import { PatternMatcher } from './pattern-matcher';
 import { FileReader } from './fileReader';
 
 export class Greper {
